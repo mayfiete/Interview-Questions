@@ -1,0 +1,5 @@
+Question: What reporting tools or platforms have you worked with, and which one do you prefer? Please explain why.
+
+Question: Can you describe a scenario where you had to present complex data visually? What approach did you take to ensure the data was easily understandable?
+
+Question: How do you use SQL in the context of reporting? Can you give an example of a complex SQL query you have written for a report?
