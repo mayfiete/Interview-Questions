@@ -3,9 +3,9 @@
 
 -- What's wrong with this query?
 SELECT * 
-FROM person  
+FROM person
     JOIN person_location
-        ON id = person_id
+        ON person.id = person_location.person_id
 WHERE person = 'Terry'; 
 
 
@@ -15,6 +15,8 @@ WHERE person = 'Terry';
 ;WITH CTE AS ( 
     SELECT person_name, phone_number
     FROM person
+    UNION ALL SELECT person_name, phone_number
+    FROM person_location
 )
 SELECT * 
 FROM CTE

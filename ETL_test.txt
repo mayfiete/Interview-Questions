@@ -1,0 +1,15 @@
+Question: Define ETL and explain its importance in data warehousing.
+
+How would you use AWS Glue? Talk about that? 
+
+Question: What are the three main stages of the ETL process? Describe each stage briefly.
+
+What ETL tools have you used?
+
+Question: How does the ETL process ensure data quality?
+
+Question: What is the difference between a data warehouse and a data mart?
+
+Question: What is a dimension table?
+
+Kwarteng did a great job. 

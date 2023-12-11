@@ -12,6 +12,19 @@ Expected Output: 15
 '''
 What is inheritance?
 '''
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print('Hello')
+
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name)
+
+    def speak(self):
+        print('Woof')
 
 '''
 What is a decorator?
@@ -40,3 +53,4 @@ class CountToTen:
 '''
 When might you use list comprehensions?
 '''
+
