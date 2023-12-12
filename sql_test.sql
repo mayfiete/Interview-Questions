@@ -3,9 +3,9 @@
 
 -- What's wrong with this query?
 SELECT * 
-FROM person
-    JOIN person_location
-        ON person.id = person_location.person_id
+FROM person P 
+    JOIN person_location PL 
+        ON id = person_id
 WHERE person = 'Terry'; 
 
 
