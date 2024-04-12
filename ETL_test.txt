@@ -11,5 +11,3 @@ Question: How does the ETL process ensure data quality?
 Question: What is the difference between a data warehouse and a data mart?
 
 Question: What is a dimension table?
-
-Kwarteng did a great job. 

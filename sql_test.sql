@@ -5,7 +5,7 @@
 SELECT * 
 FROM person P 
     JOIN person_location PL 
-        ON id = person_id
+        ON p.id = pl.person_id
 WHERE person = 'Terry'; 
 
 
@@ -15,7 +15,8 @@ WHERE person = 'Terry';
 ;WITH CTE AS ( 
     SELECT person_name, phone_number
     FROM person
-    UNION ALL SELECT person_name, phone_number
+    UNION ALL 
+    SELECT person_name, phone_number
     FROM person_location
 )
 SELECT * 
@@ -32,3 +33,9 @@ SELECT
     department_id, 
     COUNT(*) OVER (PARTITION BY department_id) AS department_count -- What is this doing?
 FROM employees;
+
+SELECT 
+    department_id, 
+    COUNT(*) 
+FROM employees
+GROUP BY department_id;
