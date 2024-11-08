@@ -10,7 +10,6 @@ WHERE person = 'Terry';
 
 
 -- What's this called? 
--- What does CTE stand for? 
 -- Why do this? 
 ;WITH CTE AS ( 
     SELECT person_name, phone_number
